@@ -1,0 +1,18 @@
+{
+  "modelo": "Regressão Logística",
+  "atributos": [
+    "Admission grade",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 2nd sem (grade)",
+    "taxa_aprovacao_1sem",
+    "taxa_aprovacao_2sem",
+    "indicador_socioeconomico"
+  ],
+  "classes": [
+    "Risco Alto",
+    "Risco Médio",
+    "Risco Baixo"
+  ],
+  "recall_risco_alto_teste": 0.662,
+  "f1_macro_teste": 0.638
+}

@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#2F6F82"
+backgroundColor = "#F7F5EF"
+secondaryBackgroundColor = "#EFEAE0"
+textColor = "#16283D"
+
+[server]
+maxUploadSize = 20
+
+[client]
+# esconde o botão "Deploy" e os itens de desenvolvedor do menu ⋮ (o app é de uso interno da escola)
+toolbarMode = "viewer"

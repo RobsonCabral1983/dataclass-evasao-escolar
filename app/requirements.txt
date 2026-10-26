@@ -1,0 +1,11 @@
+# Dependências do dashboard (Streamlit Community Cloud lê este arquivo).
+# scikit-learn DEVE ser a mesma versão usada para salvar modelo/modelo_risco.pkl.
+# Requer Python 3.11 ou superior (escolha em Advanced settings ao criar o app).
+streamlit==1.65.0
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+joblib==1.5.3
+altair==6.3.0
+xlsxwriter==3.2.9
+reportlab==4.4.10

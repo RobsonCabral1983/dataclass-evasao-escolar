@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+
+# Dados sensíveis da escola (nunca versionar dados reais de alunos)
+dados/raw/dados_reais_escola*
+
+# Banco de dados local — assim que alimentado com dados reais de alunos,
+# nunca deve ser versionado nem compartilhado fora do ambiente do protótipo
+banco/*.db
+.streamlit/secrets.toml
+banco/*.db-journal
+banco/*.sqlite*
+.env

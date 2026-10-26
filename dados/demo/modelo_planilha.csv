@@ -1,0 +1,4 @@
+matricula,nome,turma,curso,nota_admissao,nota_media_1sem,nota_media_2sem,disciplinas_aprovadas_1sem,disciplinas_cursadas_1sem,disciplinas_aprovadas_2sem,disciplinas_cursadas_2sem,inadimplente,mensalidade_em_dia,bolsista,frequencia_pct,professores
+2026001,Nome Exemplo Um,2º A,Técnico em Eletrotécnica,63.65,0.0,0.0,0,0,0,0,0,1,0,79.2,prof.bruno
+2026002,Nome Exemplo Dois,1º A,Técnico em Eletrotécnica,71.25,14.0,13.66666667,6,6,6,6,0,0,0,91.3,prof.ana
+2026003,Nome Exemplo Três,3º A,Técnico em Informática,62.4,0.0,0.0,0,6,0,6,0,0,0,62.4,prof.ana;prof.bruno

@@ -1,0 +1,19 @@
+# Etapa 1 — exploração de dados
+pandas
+numpy
+matplotlib
+seaborn
+ucimlrepo
+
+# Modelo e dashboard (scikit-learn na mesma versão do modelo/modelo_risco.pkl)
+scikit-learn==1.8.0
+joblib
+streamlit
+altair
+
+# Exportação de relatórios (Excel e PDF)
+xlsxwriter
+reportlab
+
+# Banco de dados — sqlite3 já vem na biblioteca padrão do Python,
+# nenhuma dependência nova é necessária
