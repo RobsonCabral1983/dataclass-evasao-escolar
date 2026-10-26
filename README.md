@@ -2,7 +2,7 @@
 
 Sistema preditivo para identificação precoce de alunos em risco de evasão, desenvolvido como entrega de **Projetos Integrados II** (curso de Inteligência Artificial e Ciência de Dados — Uniube).
 
-**Equipe:** Róbson de Oliveira Cabral · Sidnário Oliveira Rosa · Lucca Queiroz · Lissa Ferreira Massuda · Nathália Vieira Kamimura
+**Equipe:** Róbson de Oliveira Cabral · Sidnário Oliveira Rosa ·Lissa Ferreira Massuda · Nathália Vieira Kamimura
 **Professor:** Romualdo Mathias Filho
 
 ## O projeto
