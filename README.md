@@ -59,8 +59,10 @@ evasao-escolar/
 ├─ app/                 # dashboard Streamlit (dashboard.py), pipeline de previsão e requirements do deploy
 ├─ dados/demo/          # dados FICTÍCIOS de demonstração e planilha-modelo
 ├─ .streamlit/          # tema e exemplo de segredos (secrets.toml real nunca é versionado)
+├─ tests/               # testes automatizados (pytest)
 ├─ relatorio/            # relatório técnico final
 ├─ requirements.txt
+├─ requirements-dev.txt  # dependências para rodar os testes
 └─ README.md
 ```
 
@@ -214,6 +216,17 @@ Os dados em `dados/demo/` são **100% fictícios** (nomes e matrículas inventad
 ### Textos em português
 
 O Streamlit não traz tradução da interface, então `app/traducao.py` injeta um pequeno script que troca no navegador os textos fixos que o app não controla ("Choose options", botão e legenda do envio de arquivo, barra e menus da tabela, menu ⋮). O botão *Deploy* e os itens de desenvolvedor do menu ficam ocultos (`toolbarMode = "viewer"` em `.streamlit/config.toml`). Um texto que não esteja na tabela de `traducao.py` continua em inglês, sem causar erro.
+
+### Testes automatizados
+
+A pasta `tests/` tem testes em `pytest` que rodam sem navegador e sem tocar no banco real (cada teste usa um SQLite temporário). Eles cobrem a validação de planilhas, a engenharia de atributos, a reprodução das métricas do modelo (recall de Risco Alto 0,662 e F1 macro 0,638 no conjunto de teste), o envio e o desfazer de planilhas, as divergências, os perfis e permissões, o login com bloqueio por tentativas, as regras de frequência e inatividade, e a retenção, a exclusão de alunos e a trilha de auditoria (LGPD). Todos usam só dados fictícios.
+
+```
+pip install -r requirements-dev.txt
+python -m pytest
+```
+
+Este repositório ainda não tem testes das telas do Streamlit: elas foram verificadas durante o desenvolvimento, no navegador, com o roteiro de demonstração de 4 planilhas.
 
 ### Deploy no Streamlit Community Cloud
 

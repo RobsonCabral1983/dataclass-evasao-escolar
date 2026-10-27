@@ -20,3 +20,4 @@ banco/*.db
 banco/*.db-journal
 banco/*.sqlite*
 .env
+.pytest_cache/
