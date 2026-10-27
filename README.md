@@ -2,8 +2,15 @@
 
 Sistema preditivo para identificação precoce de alunos em risco de evasão, desenvolvido como entrega de **Projetos Integrados II** (curso de Inteligência Artificial e Ciência de Dados — Uniube).
 
-**Equipe:** Róbson de Oliveira Cabral · Sidnário Oliveira Rosa ·Lissa Ferreira Massuda · Nathália Vieira Kamimura
 **Professor:** Romualdo Mathias Filho
+
+## Demonstração online
+
+A aplicação está publicada no Streamlit Community Cloud: **https://dataclass-evasao-escolar.streamlit.app/**
+
+- O acesso é por **login e senha**. Os dados da demonstração são **fictícios**; nunca envie dados reais de alunos a esse endereço.
+- Se aparecer a tela "this app has gone to sleep", clique em **Yes, get this app back up!**. O app volta em cerca de 1 minuto (ele hiberna após 12 horas sem acesso).
+- O banco de dados na nuvem é **temporário**: ao hibernar ou reiniciar, o app volta sem dados. Para recarregar, envie as planilhas de `dados/demo` pela tela *Upload de dados*, seguindo o roteiro de demonstração da seção Dashboard.
 
 ## O projeto
 
@@ -226,7 +233,7 @@ Os arquivos locais do Streamlit Cloud são apagados quando o app reinicia, entã
 
 ## Próximos passos
 
-Ver o cronograma completo no documento de Arquitetura e Plano Técnico. Em resumo, a partir daqui: publicar o repositório no GitHub e fazer o deploy de demonstração → verificar com a escola a disponibilidade de dados reais e retreinar o modelo → relatório técnico final.
+Ver o cronograma completo no documento de Arquitetura e Plano Técnico. Em resumo, a partir daqui: verificar com a escola a disponibilidade de dados reais e retreinar o modelo → relatório técnico final.
 
 ## Créditos
 
